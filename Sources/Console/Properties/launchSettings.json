@@ -1,8 +1,7 @@
 {
   "profiles": {
     "nodewave.App.VsProjectDependencies.Console": {
-      "commandName": "Project",
-      "commandLineArgs": "-d \"D:\\_Git\\STDK_checkout\" -o \"D:\\_Git\\STDK_checkout\\dependencies.dgml\""
+      "commandName": "Project"
     }
   }
 }
