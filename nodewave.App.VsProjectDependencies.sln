@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.Console", "Sources\Console\nodewave.App.VsProjectDependencies.Console.csproj", "{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.Lib", "Sources\Lib\nodewave.App.VsProjectDependencies.Lib.csproj", "{D8466A80-1836-47B8-8CB8-70F9D27B6CAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.Model", "Sources\Model\nodewave.App.VsProjectDependencies.Model.csproj", "{847D0FEB-E8B0-4A63-9626-D1926E4843D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.Plugin.MsBuild2003", "Sources\Plugin.MsBuild2003\nodewave.App.VsProjectDependencies.Plugin.MsBuild2003.csproj", "{7D7B887F-0815-494D-A413-1E120D7D2C24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.Plugin.NuGet", "Sources\Plugin.NuGet\nodewave.App.VsProjectDependencies.Plugin.NuGet.csproj", "{1FF8F760-2750-48AC-958C-33244DB4D614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nodewave.App.VsProjectDependencies.PluginInterfaces", "Sources\PluginInterfaces\nodewave.App.VsProjectDependencies.PluginInterfaces.csproj", "{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{495CB23D-D19D-4A6D-AB56-C826FB3B4F55}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\How-To generate DGML file.md = Doc\How-To generate DGML file.md
+		Doc\How-To open DGML file.md = Doc\How-To open DGML file.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD7FDDC7-713D-48E1-833D-FF531434E2FF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{D6651FEE-C6E4-4D32-A2EE-F79830383E4C}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\Images\dgml-screenshot.png = Doc\Images\dgml-screenshot.png
+		Doc\Images\visualstudio-install-dgml.png = Doc\Images\visualstudio-install-dgml.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8466A80-1836-47B8-8CB8-70F9D27B6CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8466A80-1836-47B8-8CB8-70F9D27B6CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8466A80-1836-47B8-8CB8-70F9D27B6CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8466A80-1836-47B8-8CB8-70F9D27B6CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847D0FEB-E8B0-4A63-9626-D1926E4843D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847D0FEB-E8B0-4A63-9626-D1926E4843D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847D0FEB-E8B0-4A63-9626-D1926E4843D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847D0FEB-E8B0-4A63-9626-D1926E4843D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7B887F-0815-494D-A413-1E120D7D2C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7B887F-0815-494D-A413-1E120D7D2C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7B887F-0815-494D-A413-1E120D7D2C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7B887F-0815-494D-A413-1E120D7D2C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF8F760-2750-48AC-958C-33244DB4D614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF8F760-2750-48AC-958C-33244DB4D614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF8F760-2750-48AC-958C-33244DB4D614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF8F760-2750-48AC-958C-33244DB4D614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F5D2EA6-7F52-4636-B1F0-C9EA888A0824} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{D8466A80-1836-47B8-8CB8-70F9D27B6CAC} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{847D0FEB-E8B0-4A63-9626-D1926E4843D2} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{7D7B887F-0815-494D-A413-1E120D7D2C24} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{1FF8F760-2750-48AC-958C-33244DB4D614} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{52E73CE1-8279-430C-B1B8-F7CFDD33B6E7} = {C17B4EE5-9EB0-4834-9B4E-C4BA778C13CB}
+		{D6651FEE-C6E4-4D32-A2EE-F79830383E4C} = {495CB23D-D19D-4A6D-AB56-C826FB3B4F55}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB8B403D-D78D-471A-84EC-C476104828C4}
+	EndGlobalSection
+EndGlobal
