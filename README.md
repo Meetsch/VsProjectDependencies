@@ -28,7 +28,7 @@ For other license terms please contact the author.
 * [How-To Generate Dependency Graph](./Doc/How-To%20generate%20DGML%20file.md)
 * [How-To Open the Dependency Graph](./Doc/How-To%20open%20DGML%20file.md)
 
-## Techologies
+## Technologies
 
 ![Build Status DotNetCore](https://img.shields.io/github/languages/top/Meetsch/VsProjectDependencies)
 
